@@ -1,5 +1,13 @@
 # Trabajo Práctico Integrador – Virtualización y Docker Benchmark
 
+# 🧾 Autorores
+**Alumnos**: Rodrigo Nicolás, Gonzalo Nuñez
+**Email**: renicolas7@gmail.com
+**Trabajo presentado para:**
+Arquitectura y Sistemas Operativos
+**Profesor:** Mauricio Gabriel Pasti
+**Fecha de entrega:** 22 de junio de 2025
+
 ## 📌 Descripción
 
 Este proyecto forma parte del Trabajo Práctico Integrador para la materia **Arquitectura y Sistemas Operativos**. Tiene como objetivo analizar el rendimiento de un microservicio Docker desplegado en diferentes entornos virtualizados:
@@ -70,22 +78,5 @@ Carga con ab
 
 Métricas de uso con docker stats
 
-🧠 Conclusión General
+# 🧠 Conclusión General
 El entorno que mostró mejor rendimiento fue Ubuntu Server con la menor latencia y mayor cantidad de solicitudes por segundo, demostrando que un entorno Linux nativo es ideal para correr microservicios. Azure VM también se comportó de forma eficiente, con bajo consumo de CPU. Cloud Shell y Windows Local, aunque funcionales, presentaron mayores latencias y menor eficiencia.
-
-🧾 Autor
-Rodrigo Nicolás
-renicolas7@gmail.com
-Trabajo presentado para:
-Arquitectura y Sistemas Operativos
-Profesor: Mauricio Gabriel Pasti
-Fecha de entrega: 05 de junio de 2025
-
-📚 Bibliografía
-Docker Documentation
-
-Apache Benchmark (ab)
-
-VirtualBox Manual
-
-Ubuntu Server Guide
