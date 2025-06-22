@@ -1,6 +1,6 @@
 # Trabajo Práctico Integrador – Virtualización y Docker Benchmark
 
-# 🧾 Autorores
+# 🧾 Autores
 **Alumnos**: Rodrigo Nicolás, Gonzalo Nuñez
 **Email**: renicolas7@gmail.com
 **Trabajo presentado para:**
@@ -38,6 +38,7 @@ Se realizó un benchmark con herramientas como `ab` (Apache Benchmark), `curl`, 
 
 ## ⚙️ Estructura del proyecto
 
+```plaintext
 practica-docker/
 │
 ├── app/
@@ -52,6 +53,7 @@ practica-docker/
 │ └── collect_stats.sh (opcional)
 │
 └── README.md
+```
 
 ---
 
