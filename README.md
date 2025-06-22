@@ -31,10 +31,10 @@ Se realizó un benchmark con herramientas como `ab` (Apache Benchmark), `curl`, 
 
 | Entorno        | Latencia (s) | Req/s | CPU (%) | RAM (MiB) |
 |----------------|--------------|--------|----------|------------|
-| Cloud Shell    | 7.06         | 1.38   | 0.18     | 33.28      |
-| Azure VM       | 4.43         | 2.26   | 0.08     | 48.71      |
-| Ubuntu Server  | 4.34         | 4.47   | 0.34     | 32.95      |
-| Windows Local  | 6.00         | 1.63   | 0.16     | 33.10      |
+| Cloud Shell    | 0.68         | 1.38   | 0.18     | 33.28      |
+| Azure VM       | 0.42         | 2.34   | 0.08     | 34.46      |
+| Ubuntu Server  | 0.52         | 2.26   | 0.19     | 38.08      |
+| Windows Local  | 0.43         | 2.23   | 0.12     | 33.10      |
 
 ---
 
