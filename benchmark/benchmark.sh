@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Nombre de la imagen que se va a usar
-IMAGE="mi-app:1.0"
+IMAGE="rodrigonicolas/mi-app:1.0"
 PORT=8000
 
 echo "### Docker Pull ###"
