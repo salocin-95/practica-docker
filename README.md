@@ -2,9 +2,11 @@
 
 # 🧾 Autores
 **Alumnos**: Rodrigo Nicolás, Gonzalo Nuñez
-**Email**: renicolas7@gmail.com
-**Trabajo presentado para:**
-Arquitectura y Sistemas Operativos
+
+**Email**: renicolas7@gmail.com - gonza_emmanuel@hotmail.com.ar
+
+**Trabajo presentado para:**Arquitectura y Sistemas Operativos
+
 **Profesor:** Mauricio Gabriel Pasti
 **Fecha de entrega:** 22 de junio de 2025
 
