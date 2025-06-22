@@ -1,1 +1,91 @@
-# practica-docker
+# Trabajo Práctico Integrador – Virtualización y Docker Benchmark
+
+## 📌 Descripción
+
+Este proyecto forma parte del Trabajo Práctico Integrador para la materia **Arquitectura y Sistemas Operativos**. Tiene como objetivo analizar el rendimiento de un microservicio Docker desplegado en diferentes entornos virtualizados:
+
+- Cloud Shell de Google
+- Máquina Virtual en Azure
+- Servidor Ubuntu local
+- Sistema Windows con Docker Desktop
+
+Se realizó un benchmark con herramientas como `ab` (Apache Benchmark), `curl`, y `docker stats` para medir:
+
+- Latencia promedio por request
+- Requests por segundo (RPS)
+- Consumo de CPU y RAM
+
+---
+
+## 🧪 Entornos evaluados
+
+| Entorno        | Latencia (s) | Req/s | CPU (%) | RAM (MiB) |
+|----------------|--------------|--------|----------|------------|
+| Cloud Shell    | 7.06         | 1.38   | 0.18     | 33.28      |
+| Azure VM       | 4.43         | 2.26   | 0.08     | 48.71      |
+| Ubuntu Server  | 4.34         | 4.47   | 0.34     | 32.95      |
+| Windows Local  | 6.00         | 1.63   | 0.16     | 33.10      |
+
+---
+
+## ⚙️ Estructura del proyecto
+
+practica-docker/
+│
+├── app/
+│ ├── main.py
+│ └── requirements.txt
+│
+├── Dockerfile
+├── docker-compose.yml
+├── benchmark/
+│ ├── benchmark.sh
+│ └── stress_test.sh (opcional)
+│ └── collect_stats.sh (opcional)
+│
+└── README.md
+
+---
+
+## 🚀 Pasos para ejecutar el benchmark
+
+1. Clonar el repositorio en el entorno deseado.
+2. Instalar Docker y `ab` (`apache2-utils` en Ubuntu).
+3. Ejecutar el benchmark:
+
+```bash
+cd benchmark
+./benchmark.sh
+```
+
+Este script realiza:
+
+docker pull de la imagen desde Docker Hub
+
+docker run del contenedor
+
+Latencia con curl
+
+Carga con ab
+
+Métricas de uso con docker stats
+
+🧠 Conclusión General
+El entorno que mostró mejor rendimiento fue Ubuntu Server con la menor latencia y mayor cantidad de solicitudes por segundo, demostrando que un entorno Linux nativo es ideal para correr microservicios. Azure VM también se comportó de forma eficiente, con bajo consumo de CPU. Cloud Shell y Windows Local, aunque funcionales, presentaron mayores latencias y menor eficiencia.
+
+🧾 Autor
+Rodrigo Nicolás
+renicolas7@gmail.com
+Trabajo presentado para:
+Arquitectura y Sistemas Operativos
+Profesor: Mauricio Gabriel Pasti
+Fecha de entrega: 05 de junio de 2025
+
+📚 Bibliografía
+Docker Documentation
+
+Apache Benchmark (ab)
+
+VirtualBox Manual
+
+Ubuntu Server Guide
