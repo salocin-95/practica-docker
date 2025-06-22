@@ -8,6 +8,7 @@
 **Trabajo presentado para:** Arquitectura y Sistemas Operativos
 
 **Profesor:** Mauricio Gabriel Pasti
+
 **Fecha de entrega:** 22 de junio de 2025
 
 ## 📌 Descripción
@@ -82,5 +83,17 @@ Carga con ab
 
 Métricas de uso con docker stats
 
+---
+
 # 🧠 Conclusión General
-El entorno que mostró mejor rendimiento fue Ubuntu Server con la menor latencia y mayor cantidad de solicitudes por segundo, demostrando que un entorno Linux nativo es ideal para correr microservicios. Azure VM también se comportó de forma eficiente, con bajo consumo de CPU. Cloud Shell y Windows Local, aunque funcionales, presentaron mayores latencias y menor eficiencia.
+Se evaluaron cuatro entornos ejecutando el mismo microservicio en Docker para comparar rendimiento:
+
+- Azure VM fue el entorno más eficiente, con la mejor combinación de baja latencia, alto throughput y mínimo uso de CPU.
+
+- Windows Local tuvo un rendimiento muy similar, ideal para desarrollo con buen hardware.
+
+- Ubuntu Server ofreció un balance sólido, excelente para pruebas locales controladas.
+
+- Cloud Shell fue el menos confiable para cargas moderadas, útil solo para pruebas rápidas o educativas.
+
+Estos resultados demuestran que Docker permite comparar entornos de forma justa y reproducible, facilitando decisiones informadas de despliegue.
