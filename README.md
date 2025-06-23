@@ -97,3 +97,9 @@ Se evaluaron cuatro entornos ejecutando el mismo microservicio en Docker para co
 - Cloud Shell fue el menos confiable para cargas moderadas, útil solo para pruebas rápidas o educativas.
 
 Estos resultados demuestran que Docker permite comparar entornos de forma justa y reproducible, facilitando decisiones informadas de despliegue.
+
+---
+
+# 🎥 Video Explicativo 
+
+[Click acá](https://youtu.be/Qfdi9IFFN_M)
